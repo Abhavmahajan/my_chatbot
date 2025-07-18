@@ -44,3 +44,5 @@ for sender, message in st.session_state.chat_data:
             st.warning(message)
         else:
             st.success(message)
+
+
